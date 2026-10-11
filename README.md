@@ -6,20 +6,12 @@ A rideable night dragon for *Icarus*, with physics-based flight, blue fireballs,
 
 ## Installation
 
-Download the files from the [Releases page](https://github.com/djmad/icarusdragon/releases). The paths below assume the default Steam folder `C:\Program Files (x86)\Steam\steamapps\common\Icarus`; adjust them if your Steam library is somewhere else.
+**Full manual: [INSTALL.md](INSTALL.md)**. It covers step-by-step installation, checking, playing, updating, uninstalling and help.
 
-The Icarus Mod Manager only installs game data and .pak files. The dragon's logic (flight, fireballs, animations, egg hatching) runs on [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS), which needs one manual step:
-
-1. **UE4SS + dragon logic:** extract `IcarusDragon-Complete_<version>.zip` into `C:\Program Files (x86)\Steam\steamapps\common\Icarus\Icarus\Binaries\Win64\`. Afterwards `dwmapi.dll` sits next to `Icarus-Win64-Shipping.exe`, together with a `ue4ss` folder. The zip contains the UE4SS build the mod was tested with, already configured.
-   - **UE4SS already installed?** Extract only `IcarusDragon-UE4SS_<version>.zip` into your UE4SS `Mods` folder, e.g. `C:\Program Files (x86)\Steam\steamapps\common\Icarus\Icarus\Binaries\Win64\ue4ss\Mods\`. The mod starts through its `enabled.txt`.
-2. **Game data:** import and install `IcarusDragonIntegration_<version>.exmodz` with the [Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software). It contains the model, animations, items and research.
-3. **Play:** start Icarus. Research or buy the dragon egg in the workshop and place it on the ground. After 10 seconds your own adult dragon hatches. Add a saddle and ride.
-
-**Updating:** replace `C:\Program Files (x86)\Steam\steamapps\common\Icarus\Icarus\Binaries\Win64\ue4ss\Mods\IcarusDragon` with the new version and import the new .exmodz.
-
-**Uninstalling:** remove the mod in the Mod Manager and delete `C:\Program Files (x86)\Steam\steamapps\common\Icarus\Icarus\Binaries\Win64\ue4ss\Mods\IcarusDragon`. If you installed the complete zip, you can also delete `C:\Program Files (x86)\Steam\steamapps\common\Icarus\Icarus\Binaries\Win64\dwmapi.dll` and `C:\Program Files (x86)\Steam\steamapps\common\Icarus\Icarus\Binaries\Win64\ue4ss`.
-
-Single player is tested. Multiplayer is not tested yet.
+In short (default Steam folder):
+1. Extract `IcarusDragon-Complete_<version>.zip` into `C:\Program Files (x86)\Steam\steamapps\common\Icarus\Icarus\Binaries\Win64\`. This installs UE4SS and the dragon logic. The Mod Manager can't install UE4SS mods.
+2. Install `IcarusDragonIntegration_<version>.exmodz` with the Icarus Mod Manager: drag it in, add it to the install list, then **Install All Listed Mods**.
+3. In the game, research or buy the dragon egg and place it. Your dragon hatches 10 seconds later.
 
 ## Key bindings (while riding the dragon)
 
