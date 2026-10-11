@@ -1,0 +1,17 @@
+{
+  "mods": [
+    {
+      "name": "Icarus Dragon",
+      "author": "djmad",
+      "version": "0.18.1",
+      "week": "",
+      "compatibility": "All",
+      "description": "Rideable night dragon: place the dragon egg (workshop) and it hatches into your own dragon. Physics-based flight (Space take off/flap, Shift faster, Ctrl slower/hover, Alt descend and land, W/S pitch, A/D roll, Q/E turn), blue fireballs (left mouse), hunting vision (right mouse), animated folding wings, head follows your view, saddles and a whistle that calls the dragon. Requires UE4SS plus the IcarusDragon UE4SS folder from the GitHub release (see readme).",
+      "imageURL": "https://raw.githubusercontent.com/djmad/icarusdragon/main/IcarusDragon.png",
+      "readmeURL": "https://raw.githubusercontent.com/djmad/icarusdragon/main/README.md",
+      "files": {
+        "exmodz": "https://github.com/djmad/icarusdragon/releases/download/v0.18.1/IcarusDragonIntegration_0.18.1.exmodz"
+      }
+    }
+  ]
+}
